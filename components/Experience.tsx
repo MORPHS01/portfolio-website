@@ -13,7 +13,7 @@ function Experience() {
 
         <div className="flex justify-center my-5">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-                <p className="text-center text-[19px] mb-3">As a front-end developer, I've crafted intuitive user interfaces, optimized performance, and collaborated seamlessly to deliver responsive web experiences that blend creativity with functionality and user-centric design principles.</p>
+                <p className="text-center text-[19px] mb-3">As a front-end developer, I&apos;ve crafted intuitive user interfaces, optimized performance, and collaborated seamlessly to deliver responsive web experiences that blend creativity with functionality and user-centric design principles.</p>
                 <MagicButton onClick={handleClick} title="View my CV" icon={<FaLocationArrow/>}/>
             </div>
         </div>
