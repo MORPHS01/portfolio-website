@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 function Experience() {
     function handleClick(){
-        window.open("https://drive.google.com/file/d/1Zuz4ZVudtaEpQW1j7KfrHZEkb2ZnuOgL/view?usp=drive_link", '_blank');
+        window.open("https://drive.google.com/file/d/1tF8Ek0VYybFLMKIYWPVF3D5bVbxZiib-/view?usp=drive_link", '_blank');
     }
 
   return (
