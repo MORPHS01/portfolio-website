@@ -10,7 +10,7 @@ function Hero() {
       <div>
         <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />
         <Spotlight className="h-[80vh] w-[50vw] top-10 left-full overflow-hidden max-[800px]:hidden" fill="purple" />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[100vw] max-[800px]:left-0 max-[800px]:h-[250px]" fill="blue" />
+        <Spotlight className="left-80 top-28 h-[80vh] w-[100vw] max-[800px]:left-0 max-[800px]:top-0 max-[800px]:h-[500px]" fill="blue" />
       </div>
 
       <div className="h-screen w-full bg-grid-white/[0.025] flex items-center justify-center absolute top-0 left-0">

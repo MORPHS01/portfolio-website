@@ -70,7 +70,7 @@ function FloatingNavbar({
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="text-md">{navItem.name}</span>
+            <span className="text-md max-[800px]:text-base">{navItem.name}</span>
           </Link>
         ))}
       </motion.div>
