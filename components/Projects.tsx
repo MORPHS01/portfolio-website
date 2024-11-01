@@ -1,6 +1,5 @@
 import { CardBody, CardContainer, CardItem } from "@/components/UI/3d-card";
 import Image from "next/image";
-import Link from "next/link";
 import { projects } from "@/data";
 
 function Projects() {
@@ -10,7 +9,7 @@ function Projects() {
 
         <div className="flex flex-wrap gap-x-20 gap-y-24  justify-center mx-auto w-[90%] ">
             {projects.map(project => (
-                <Link  key={project.id} href={project.link} target="blank">
+                <a  key={project.id} href={project.link} target="blank">
                     <CardContainer className="cursor-pointer inter-var">
                         <CardBody className="relative group/card  hover:shadow-2xl hover:shadow-cyan bg-black-100  w-auto sm:w-[30rem] h-auto rounded-xl pb-7">
                             <CardItem translateZ="100" className="w-full mb-6">
@@ -24,7 +23,7 @@ function Projects() {
                             </CardItem>
                         </CardBody>
                     </CardContainer>
-                </Link>
+                </a>
             ))}
         </div>
     </div>
