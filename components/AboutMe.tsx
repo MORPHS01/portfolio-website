@@ -28,7 +28,7 @@ function AboutMe() {
   return (
     <div id="about" className="pt-[65px] pb-[200px]">
         <motion.div variants={containerVariants} initial="initial" whileInView="animate" viewport={{margin: "-300px", once: true}} >
-            <motion.p variants={spanVariants} className="heading mb-14">About<motion.span variants={spanVariants} className="text-cyan"> Me</motion.span></motion.p>
+            <motion.p variants={spanVariants} className="heading mb-14">About<motion.span variants={spanVariants} transition={{ delay: 0.4 }} className="text-cyan"> Me</motion.span></motion.p>
         </motion.div>
         
         <div className="max-w-[85vw] md:max-w-3xl lg:max-w-[65vw] mx-auto text-center text-[19px]">
