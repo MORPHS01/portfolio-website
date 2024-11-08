@@ -1,13 +1,34 @@
 "use client"
 import { motion } from "framer-motion";
 
+const containerVariants = {
+    initial: {
+        x: 0
+    },
+    animate: {
+        x: 0,
+        transition: {
+            staggerChildren: 0.4
+        }
+    }
+}
 
+const spanVariants = {
+    initial: {
+        opacity: 0, 
+        y: "-55vh"
+    },
+    animate: {
+        opacity: 1, 
+        y: 0
+    }
+}
 
 function AboutMe() {
   return (
     <div id="about" className="pt-[65px] pb-[200px]">
-        <motion.div initial={{opacity: 0,}} whileInView={{opacity: 1,}} viewport={{margin: "-300px", once: true}} >
-            <p className="heading mb-14">About<span className="text-cyan"> Me</span></p>
+        <motion.div variants={containerVariants} initial="initial" whileInView="animate" viewport={{margin: "-300px", once: true}} >
+            <motion.p variants={spanVariants} className="heading mb-14">About<motion.span variants={spanVariants} className="text-cyan"> Me</motion.span></motion.p>
         </motion.div>
         
         <div className="max-w-[85vw] md:max-w-3xl lg:max-w-[65vw] mx-auto text-center text-[19px]">
