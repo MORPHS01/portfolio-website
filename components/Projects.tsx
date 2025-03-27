@@ -13,7 +13,7 @@ function Projects() {
                     <CardContainer className="cursor-pointer inter-var">
                         <CardBody className="relative group/card  hover:shadow-2xl hover:shadow-cyan bg-black-100  w-auto sm:w-[30rem] h-auto rounded-xl pb-7">
                             <CardItem translateZ="100" className="w-full mb-6">
-                                <Image src={project.img} height="1000" width="1000" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl" alt="thumbnail" />
+                                <Image src={`${project.img}`} height="1000" width="1000" className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl" alt="thumbnail" />
                             </CardItem>
                             <CardItem translateZ="50" className="text-2xl font-bold text-cyan px-6" >
                                 {project.title}

@@ -7,6 +7,11 @@ import Image from "next/image";
 
 
 function Footer(){
+
+  const today = new Date();
+  const year = today.getFullYear();
+
+
   return (
     <footer className="relative w-full pt-20 pb-14" id="contact">
 
@@ -32,7 +37,7 @@ function Footer(){
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center w-[90%] mx-auto">
         <p className="md:text-base text-sm md:font-normal font-light max-md:mb-5">
-          Copyright © 2024 <span className="text-cyan">Ayonimofe Atoyebi</span>
+          Copyright © {year} <span className="text-cyan">Ayonimofe Atoyebi</span>
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
