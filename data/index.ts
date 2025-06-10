@@ -11,7 +11,7 @@ export const projects = [
     title: "ElectroBay E-commerce Website",
     des: "A fully functional e-commerce website with product listings, shopping cart, and user authentication.",
     img: "/images/electrobay.png",
-    link: "https://electrobay-store.vercel.app/",
+    link: "https://electrobay.vercel.app/",
   },
   {
     id: 2,
