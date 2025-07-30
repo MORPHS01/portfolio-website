@@ -15,17 +15,17 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Mona Dashboard Application",
+    des: "A modern, interactive banking dashboard featuring real-time data visualization, intuitive navigation, and a sleek, responsive UI. Built to enhance user engagement, it offers seamless access to account insights.",
+    img: "/images/mona-dashboard.png",
+    link: "https://mona-dashboard-app.vercel.app/transactions",
+  },
+  {
+    id: 3,
     title: "Maris Beauty Salon",
     des: "A business-focused website showcasing hair and beauty services, complete with an intuitive booking system for seamless customer appointments and scheduling.",
     img: "/images/marisbeautysalon.png",
     link: "https://marisbeautysalon.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Morphyy Dashboard Application",
-    des: "A modern, interactive dashboard with real-time data visualization and sleek UI design.",
-    img: "/images/morphyy-dashboard.png",
-    link: "https://morphyy-dashboard-application.vercel.app/dashboard",
   },
   {
     id: 4,
